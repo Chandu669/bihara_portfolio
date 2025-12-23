@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Bihara De Silva</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- Background Animation -->
+<div class="bg-animation"></div>
+
+<!-- Navbar -->
+<nav class="navbar">
+  <div class="nav-container">
+    <h2 class="logo">Bihara<span>.</span></h2>
+
+    <ul class="nav-menu" id="navMenu">
+      <li><a href="#home" onclick="closeMenu()">Home</a></li>
+      <li><a href="#about" onclick="closeMenu()">About</a></li>
+      <li><a href="#education" onclick="closeMenu()">Education</a></li>
+      <li><a href="#social" onclick="closeMenu()">Contact</a></li>
+    </ul>
+
+    <div class="menu-toggle" onclick="toggleMenu()">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero Section -->
+<section id="home" class="hero">
+  <div class="hero-content reveal">
+    
+    <div class="profile-img">
+      <img src="images/571342498_2183299038830594_42388859791633239_n.jpg" alt="Bihara De Silva">
+    </div>
+
+    <h1>Hi, I'm <span>Bihara De Silva</span></h1>
+    <p>
+      Hospitality, Tourism & Events Management Undergraduate
+    </p>
+
+    <button class="btn" onclick="scrollToSection('about')">
+      Explore More
+    </button>
+  </div>
+</section>
+
+<!-- About -->
+<section id="about" class="section glass reveal">
+  <h2>About Me</h2>
+  <p>
+    I am an undergraduate at <b>Uva Wellassa University</b> following
+    <b>Hospitality, Tourism and Events Management</b> under the
+    <b>Faculty of Management</b>.  
+    I am passionate about tourism, customer experience, and event coordination.
+  </p>
+</section>
+
+<!-- Education -->
+<section id="education" class="section reveal">
+  <h2>Education</h2>
+
+  <div class="card">
+    <h3>Princess of Wales' College, Moratuwa</h3>
+    <p>Secondary Education</p>
+  </div>
+
+  <div class="card">
+    <h3>Uva Wellassa University</h3>
+    <p>Hospitality, Tourism & Events Management</p>
+  </div>
+</section>
+
+<!-- Social -->
+<section id="social" class="section glass reveal">
+  <h2>Connect With Me</h2>
+
+  <div class="social-links">
+    <a href="https://www.facebook.com/bihara.santhushmi.9/" target="_blank">Facebook</a>
+    <a href="https://twitter.com/biha_31" target="_blank">Twitter</a>
+    <a href="https://instagram.com/" target="_blank">Instagram</a>
+  </div>
+</section>
+
+<footer>
+  <p>© 2025 Bihara De Silva</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
