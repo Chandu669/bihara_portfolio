@@ -1,97 +1,231 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Bihara De Silva</title>
   <link rel="stylesheet" href="style.css" />
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
 
-<!-- Background Animation -->
-<div class="bg-animation"></div>
+  <!-- Background Animation -->
+  <div class="bg-animation"></div>
 
-<!-- Navbar -->
-<nav class="navbar">
-  <div class="nav-container">
-    <h2 class="logo">Bihara<span>.</span></h2>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <h2 class="logo">Bihara<span>.</span></h2>
 
-    <ul class="nav-menu" id="navMenu">
-      <li><a href="#home" onclick="closeMenu()">Home</a></li>
-      <li><a href="#about" onclick="closeMenu()">About</a></li>
-      <li><a href="#education" onclick="closeMenu()">Education</a></li>
-      <li><a href="#social" onclick="closeMenu()">Contact</a></li>
-    </ul>
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="#home" onclick="closeMenu()">Home</a></li>
+        <li><a href="#about" onclick="closeMenu()">About</a></li>
+        <li><a href="#education" onclick="closeMenu()">Education</a></li>
+        <li><a href="#skills" onclick="closeMenu()">Skills</a></li>
+        <li><a href="#experience" onclick="closeMenu()">Experience</a></li>
+        <li><a href="#personal" onclick="closeMenu()">Personal</a></li>
+        <li><a href="#social" onclick="closeMenu()">Contact</a></li>
+      </ul>
 
-    <div class="menu-toggle" onclick="toggleMenu()">
-      <span></span>
-      <span></span>
-      <span></span>
+      <div class="menu-toggle" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
     </div>
-  </div>
-</nav>
+  </nav>
 
-<!-- Hero Section -->
-<section id="home" class="hero">
-  <div class="hero-content reveal">
-    
-    <div class="profile-img">
-      <img src="images/571342498_2183299038830594_42388859791633239_n.jpg" alt="Bihara De Silva">
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-content reveal">
+
+      <div class="profile-img">
+        <img src="images/IMG_9180.JPG" alt="Bihara De Silva">
+      </div>
+
+      <h1>Hi, I'm <span>Bihara De Silva</span></h1>
+      <p>
+        Hospitality, Tourism & Events Management Undergraduate
+      </p>
+
+      <button class="btn" onclick="scrollToSection('about')">
+        Explore More
+      </button>
     </div>
+  </section>
 
-    <h1>Hi, I'm <span>Bihara De Silva</span></h1>
+  <!-- About -->
+  <section id="about" class="section glass reveal">
+    <h2>About Me</h2>
     <p>
-      Hospitality, Tourism & Events Management Undergraduate
+      I am a Hospitality, Tourism & Events Management undergraduate with proven
+      leadership skills and hands-on experience in university and industry-level
+      event coordination. I specialize in marketing, sales, ticketing, and digital
+      content creation, using creative design strategies to drive engagement and
+      attendance.
+      <br><br>
+      Highly organized and a strong communicator, I am passionate about delivering
+      seamless, high-impact event experiences while continuously improving my
+      skills in hospitality operations, tourism promotion, and digital marketing.
     </p>
+  </section>
 
-    <button class="btn" onclick="scrollToSection('about')">
-      Explore More
-    </button>
-  </div>
-</section>
+  <!-- Education -->
+  <section id="education" class="section reveal">
+    <h2>Education</h2>
 
-<!-- About -->
-<section id="about" class="section glass reveal">
-  <h2>About Me</h2>
-  <p>
-    I am an undergraduate at <b>Uva Wellassa University</b> following
-    <b>Hospitality, Tourism and Events Management</b> under the
-    <b>Faculty of Management</b>.  
-    I am passionate about tourism, customer experience, and event coordination.
-  </p>
-</section>
+    <div class="card">
+      <h3>Uva Wellassa University of Sri Lanka</h3>
+      <p>Bachelor of Business Management (Hons) in Hospitality, Tourism & Events Management</p>
+    </div>
 
-<!-- Education -->
-<section id="education" class="section reveal">
-  <h2>Education</h2>
+    <div class="card">
+      <h3>Princess of Wales' College, Moratuwa</h3>
+      <p>
+        G.C.E Advanced Level Examination<br>
+        History of Sri Lanka & India – A Pass<br>
+        Media & Communication Studies – A Pass<br>
+        Japanese – C Pass
+      </p>
+    </div>
 
-  <div class="card">
-    <h3>Princess of Wales' College, Moratuwa</h3>
-    <p>Secondary Education</p>
-  </div>
+    <div class="card">
+      <h3>ICBT Campus Colombo</h3>
+      <p>Diploma in Spoken English – Distinction Pass</p>
+    </div>
 
-  <div class="card">
-    <h3>Uva Wellassa University</h3>
-    <p>Hospitality, Tourism & Events Management</p>
-  </div>
-</section>
+    <div class="card">
+      <h3>Japanese Language Proficiency Test (JLPT)</h3>
+      <p>N5 – Passed | Currently reading for N4</p>
+    </div>
 
-<!-- Social -->
-<section id="social" class="section glass reveal">
-  <h2>Connect With Me</h2>
+    <div class="card">
+      <h3>Sri Lanka Institute of Marketing (SLIM)</h3>
+      <p>Events Planning & Marketing Certificate Course – Reading</p>
+    </div>
+  </section>
 
-  <div class="social-links">
-    <a href="https://www.facebook.com/bihara.santhushmi.9/" target="_blank">Facebook</a>
-    <a href="https://twitter.com/biha_31" target="_blank">Twitter</a>
-    <a href="https://instagram.com/" target="_blank">Instagram</a>
-  </div>
-</section>
+  <section id="skills" class="section glass reveal">
+    <h2>Skills</h2>
 
-<footer>
-  <p>© 2025 Bihara De Silva</p>
-</footer>
+    <div class="card">
+      <p>Content Creating</p>
+      <p>Video Editing</p>
+      <p>Designing</p>
+      <p>Digital Literacy (MS Office)</p>
+      <p>Customer Service</p>
+    </div>
 
-<script src="script.js"></script>
+    <h2>Skills & Competences</h2>
+
+    <div class="card">
+      <p>Communication</p>
+      <p>Critical Thinking</p>
+      <p>Problem Solving</p>
+      <p>Innovation</p>
+      <p>Creativity</p>
+      <p>Social Intelligence</p>
+    </div>
+  </section>
+
+  <section id="experience" class="section glass reveal">
+    <h2>Experience</h2>
+
+    <div class="card">
+      <h3>Hotel Garden Beach – Kosgoda</h3>
+      <p>Social Media Handler & Content Creator (2024)</p>
+    </div>
+
+    <div class="card">
+      <h3>Pizza Connection – Badulla</h3>
+      <p>
+        Social Media Handler & Content Creator (2025)<br>
+        Content Strategy & Production<br>
+        Trend Adaptation<br>
+        Community Management
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>NV Shop.lk</h3>
+      <p>Designer – Flyer Design (2024)</p>
+    </div>
+
+    <div class="card">
+      <h3>Mahi Beach Ayurveda Hotel</h3>
+      <p>Content Creator (2025)</p>
+    </div>
+  </section>
+
+  <section id="Curricular" class="section reveal">
+    <h2>Extra Curricular Activities</h2>
+
+    <div class="card">
+      <p>UWU Tourism Club – Secretary (25/26)</p>
+      <p>UWU Tourism Club – Committee Member (24/25)</p>
+      <p>Sancharaka Udawa – Stall Marketing Coordinator (2025)</p>
+      <p>Uva Wellassa University Basket Ball Team (2024)</p>
+      <p>Art Society – Princess of Wales' College (Committee Member – 2018)</p>
+    </div>
+  </section>
+
+  <section class="section glass reveal">
+    <h2>Certifications & Workshops</h2>
+
+    <div class="card">
+      <p>Hotel Front Office Operations Workshop – Japura Tourism Club (2024)</p>
+      <p>Sri Lanka MICE Tourism Conclave – Innovative Tourism Proposal</p>
+      <p>Central Bank of Sri Lanka – Short Video Competition (2025)</p>
+      <p>Airport Aviation Workshop – Civil Aviation Authority (2025)</p>
+    </div>
+  </section>
+
+  <section id="personal" class="section reveal">
+    <h2>Personal Details</h2>
+
+    <div class="card">
+      <p><strong>Full Name:</strong> Bihara De Silva</p>
+      <p><strong>Date of Birth:</strong> 31-10-2000</p>
+      <p><strong>Nationality:</strong> Sri Lankan</p>
+      <p><strong>Marital Status:</strong> Single</p>
+    </div>
+
+
+
+    <h2>Languages</h2>
+
+    <div class="card">
+      <p>Sinhala – Fluent</p>
+      <p>English – Fluent</p>
+      <p>Japanese – N4 Level</p>
+      <p>Tamil – Basic</p>
+      <p>German – Basic</p>
+    </div>
+  </section>
+
+  <section id="social" class="section glass reveal">
+    <h2>Contact & Social Links</h2>
+
+    <div class="social-links">
+      <a href="https://biharadesilva.info" target="_blank">Website</a>
+      <a href="http://www.linkedin.com" target="_blank">LinkedIn</a>
+      <a href="https://www.facebook.com/bihara.santhushmi.9/" target="_blank">Facebook</a>
+    </div>
+
+    <div class="card">
+      <p><strong>Telephone:</strong> +76 667 7748</p>
+      <p><strong>Email:</strong> bihara.santhushmi@gmail.com</p>
+      <p><strong>Address:</strong> Liberty Mw, Pahalagoda, Payagala, Kalutara South</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Bihara De Silva</p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
+
 </html>
